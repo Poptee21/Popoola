@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      ul {
+        display: flex;
+
+        list-style: none;
+        gap: 2rem;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: grey;
+
+        padding: 1rem;
+      }
+
+      body {
+        height: 97vh;
+        background-image: url(./email-bacground.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: sans-serif;
+      }
+
+      p {
+        text-align: center;
+        color: white;
+        margin-top: 8rem;
+      }
+
+      h2 {
+        color: white;
+        font-family: sans-serif;
+        text-decoration: transparent;
+
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+      }
+
+      h6 {
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      a:hover{
+          color: blue;
+          background-color: lime;
+          padding: 1rem;
+      }
+
+     
+
+      .studio {
+        color: red;
+        font-weight: bolder;
+      }
+
+      .sign {
+        border: none;
+        background-color: red;
+        padding: 0.7rem;
+        color: white;
+      }
+
+      .gym {
+        font-weight: bolder;
+        font-size: 41px;
+      }
+
+      .find {
+        color: red;
+      }
+
+      .container {
+        text-align: center;
+        margin-top: 10rem;
+        line-height: 3rem;
+        color: white;
+      }
+
+     .button{
+        
+        color: white;
+        border: none;
+        background-color: red;
+        padding: 0.5rem;
+       
+        
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h2>TRAINING <span class="studio">STUDIO</span></h2>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Classes</a></li>
+        <li><a href="">Scheldule</a></li>
+        <li><a href="">Contact</a></li>
+        <button class="sign">
+          <li><a href="">SignUp</a></li>
+        </button>
+      </ul>
+    </nav>
+    <div class="container">
+      <h6 class="work">Work Harder, Get Stronger</h6>
+
+      <h1 class="gym">EASY WITH OUR <span class="find"> GYM</span></h1>
+
+      <center><button class="button">Become A Member</button></center>
+    </div>
+
+   
+  </body>
+</html>

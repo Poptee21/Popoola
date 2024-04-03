@@ -1,0 +1,18 @@
+.container2{
+
+    background-color: white;
+    width: 50%;
+    height: ;
+    align-items: center;
+    text-align: center;
+}
+
+.container1{
+   
+   background-image: url(./IMG_2816.JPG);
+   background-size:cover;
+   width: 50%;
+   height: vh;
+   align-items: center;
+   text-align: center;
+}

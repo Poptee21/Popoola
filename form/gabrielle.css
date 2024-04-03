@@ -1,0 +1,89 @@
+body{
+
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+}
+
+.f1
+{
+    width: 30%;
+    margin-top: 8rem;
+    height: 20rem;
+    background-image: url(./IMG-20240311-WA0011.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+.f2{
+    width: 30%;
+    height: 20rem;
+    margin-top: 8rem;
+    background-color: white;
+     border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+}
+
+.head{
+ letter-spacing: 2px;
+ opacity:0.5;
+padding-left: 10px;
+  font-size: 10px;
+  margin-top: 15px;
+
+
+}
+.parent{
+    display: flex;
+    margin-left: 20rem;
+    
+}
+
+.words{
+     font-weight: bold;
+    font-size: 20px;   
+     padding-left:10px;
+    margin-top: 1rem;
+   
+   
+}
+
+    
+
+.stop{
+text-decoration: line-through;
+font-size: 10px;
+color: black;
+opacity: 0.5;
+
+}
+
+.perf{
+    opacity:0.5;
+    
+    
+    
+}
+
+.num{
+    
+    font-size: 35px;
+    color:darkgreen;
+    font-family: algerian;
+    margin-top:0.5rem ;
+}
+
+.button{
+
+    border: none;
+    border-radius: 5px;
+    background-color:darkgreen;
+    padding: 0.5rem 2.3rem;
+    margin-bottom: 10px;
+    color: white;
+    
+    
+
+}

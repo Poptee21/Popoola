@@ -1,0 +1,61 @@
+body{
+
+    background-image: url(./pexels-ian-turnell-709552.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position:center ;
+    background-size: cover;
+    width:600px;
+   
+}
+
+
+
+
+.Container{
+    display:none;
+    width: 100%;
+    background-color: lightcoral;
+    color: red;
+    width: 80px;
+    
+}
+
+.parent{
+     color:yellow;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.parent2{
+     color:lawngreen;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.parent:hover  .Container{
+    display: block;
+}
+
+.container2{
+    display: none;
+    width: 100px;
+    background-color: violet;
+
+}
+
+.parent2:hover .container2{
+ display: block;
+ 
+
+}
+.all{
+    display: flex;
+    gap: 4rem;
+}
